@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "id": "core",
+      "label": "本体",
+      "version": "2026.06.30 (9323519)",
+      "file": "https://raw.githubusercontent.com/chidai/marp-studio-dist/main/core.zip",
+      "applies": "core",
+      "sha256": "b7f69faaa0fb0c2926e11b7a6732ce0fc50f1ae4e03bee11e340efa3c70840ed",
+      "changelog": [
+        {
+          "version": "2026.06.29",
+          "date": "2026-06-29",
+          "summary": "アプリ内自動更新を追加",
+          "notes": [
+            "「更新を確認」ボタンで新版を取得し、次回起動時に適用",
+            "更新履歴（変更内容）を表示。複数リリースをまたいでも間が全部見える",
+            "前の版に戻す（ロールバック1世代）",
+            "オフライン・接続不可でも起動できる（手動チェックのみ・起動時の自動通信なし）",
+            "配布元は複数指定で冗長化、ローカルフォルダ/USBも指定可"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "id": "theme-39974907a1f5",
+      "version": "2026.06.30 (64922fb)",
+      "applies": "overlay",
+      "delivery": "drop",
+      "sha256": "9edc21f2f183a32b60ec2658e5d7a2d41a5b7713133087405ef2668722560c2b",
+      "changelog": []
+    }
+  ]
+}
