@@ -4,10 +4,10 @@
     {
       "id": "core",
       "label": "本体",
-      "version": "2026.06.30 (9323519)",
-      "file": "https://raw.githubusercontent.com/chidai/marp-studio-dist/main/core.zip",
-      "applies": "core",
-      "sha256": "b7f69faaa0fb0c2926e11b7a6732ce0fc50f1ae4e03bee11e340efa3c70840ed",
+      "version": "2026.07.05 (72ac7f3)",
+      "file": "core.zip",
+      "applies": "core-safe",
+      "sha256": "63346cb293c725718f5201ba5b1c1a51870220eab79a386ece3820a4e5235284",
       "changelog": [
         {
           "version": "2026.06.29",
