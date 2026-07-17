@@ -4,11 +4,19 @@
     {
       "id": "core",
       "label": "本体",
-      "version": "2026.07.13 (796be6b)",
+      "version": "2026.07.17 (970dd53)",
       "file": "core.zip",
       "applies": "core-safe",
-      "sha256": "2cd4dbbd593259289ed3bba4989f9793535176e180e8e3b012166603e27a0467",
+      "sha256": "adaaaf22bb9efc1a968a585496fce7f76c0fee1cc45880bd44ddf7601f1d3338",
       "changelog": [
+        {
+          "version": "2026.07.16",
+          "date": "2026-07-16",
+          "summary": "「HTML(zip)を作る」ボタンを追加",
+          "notes": [
+            "PDF/PPTX(β)に加え、HTML＋画像一式をzipにまとめて出力するボタンを追加（メール添付・チャット共有向け）"
+          ]
+        },
         {
           "version": "2026.07.13",
           "date": "2026-07-13",
