@@ -4,10 +4,10 @@
     {
       "id": "core",
       "label": "本体",
-      "version": "2026.07.22 (ebba4d3)",
+      "version": "2026.07.22 (3acf088)",
       "file": "core.zip",
       "applies": "core-safe",
-      "sha256": "de7e823175b1f364a61878083249c74851f6f1aff274117a64378fe4b27fc140",
+      "sha256": "5660fcc901392f8068fefe8bd77f59d9c21a3338370d370fcc23b9555b584847",
       "changelog": [
         {
           "version": "2026.07.22",
