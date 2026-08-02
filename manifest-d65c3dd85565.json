@@ -3,10 +3,10 @@
   "components": [
     {
       "id": "theme-d65c3dd85565",
-      "version": "2026.07.17 (7ec7ef2)",
+      "version": "2026.08.02 (120d0f9)",
       "applies": "overlay",
       "delivery": "drop",
-      "sha256": "a548fecf2bc3b6e0e073589f76d4867a4da2f9a9a87584c8d3c478b830d29dec",
+      "sha256": "8e6a1bd13f3808f889616831cd57b8db6106d2b683fe50f9c551aeb8efa3a926",
       "changelog": []
     }
   ]
