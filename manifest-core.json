@@ -4,11 +4,25 @@
     {
       "id": "core",
       "label": "本体",
-      "version": "2026.07.31 (9fb6c47)",
-      "file": "core.zip",
+      "version": "2026.08.10 (e512d68-dirty)",
       "applies": "core-safe",
-      "sha256": "a0a0843000f36b469478b909dc2d2b647738c8b0aabb806f9ab93e7529298a4e",
+      "delivery": "drop",
+      "sha256": "1b345ef606b838977307ea33a0f4b9d62d34b68dd5e0dd23c717d3fc2f95aaab",
       "changelog": [
+        {
+          "version": "2026.08.10",
+          "date": "2026-08-10",
+          "summary": "本体の更新方式をテーマと同じdrop方式に統一、発表モード検索の不具合修正、PPTX(β)をadmin限定に",
+          "notes": [
+            "本体(core)の更新配布を、これまでの公開HTTP自動取得からテーマと同じdelivery=drop方式に変更。core.zip自体は社外公開ホスト(GitHub等)に置かず、Box等の社内配布経路から入手して所定フォルダ(core-update-drop)へ配置する運用に統一(core.zipにはIBM標章が含まれるため)",
+            "「⚙ 設定」に「更新ファイルの置き場（本体・テーマ）」を新設。本体用(coreDropDir)・テーマ用(dropDir)の置き場を.marp-studio.jsonの手編集なしで設定できるように(Box Drive同期フォルダの絶対パス指定にも対応)",
+            "発表モードのキーワード検索: 検索結果へジャンプする前の位置に戻れる「戻る」ボタンをOSCに追加",
+            "発表モードのキーワード検索: Escapeキーが検索欄以外にフォーカスがある時に効かず閉じられない不具合を修正(captureフェーズで常時処理)。検索窓の外側クリックでも閉じられるように。閉じるための「×」ボタンも追加",
+            "発表モードのキーワード検索: 日本語入力(IME)の変換確定Enterで検索結果へ誤ジャンプしてしまう不具合を修正",
+            "PPTX(β)出力ボタンを.marp-studio.jsonのadmin:trueフラグを持つ環境だけに限定表示。APIも非adminからは403で拒否(ベータ機能のため)",
+            "Lighthouse版のzip内ルートフォルダ名を MarpStudio-Lighthouse から MarpStudio-LH に短縮"
+          ]
+        },
         {
           "version": "2026.07.29",
           "date": "2026-07-29",
