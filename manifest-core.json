@@ -4,11 +4,20 @@
     {
       "id": "core",
       "label": "本体",
-      "version": "2026.08.20 (62ece36)",
+      "version": "2026.08.20 (ff14700)",
       "applies": "core-safe",
       "delivery": "drop",
-      "sha256": "070cc4ff03439ad65b6cca2bb8828245d3c3f4927604be3b59325f422d02456f",
+      "sha256": "b73169d2ce897d4ec2f45b8fff4ae7f3787ab9243cf60d701f0e43726030b0d1",
       "changelog": [
+        {
+          "version": "2026.08.20",
+          "date": "2026-08-20",
+          "summary": "デッキ一覧に、Marp本文(frontmatterのmarp:true)を持たない.mdが混入する不具合を修正",
+          "notes": [
+            "デッキ判定を「拡張子.mdであること」ベースから「frontmatterにmarp:trueを持つこと」ベースに変更。<フォルダ名>.md優先マッチ側でも、非MarpのMarkdown文書(参考資料・仕様書等でフォルダ名と同名のもの)が一覧に混入していた不具合を修正",
+            "非MarpのMarkdownはページング前提のビューアでは冒頭しか表示できず実用的でなかったため、一覧からは除外する方針に変更(README.md以外も対象)"
+          ]
+        },
         {
           "version": "2026.08.19",
           "date": "2026-08-19",
